@@ -8,7 +8,7 @@ class MyGUI:
         self.master = master
         master.title("Button Clicker")
 
-        self.label = Label(master, text="Try the Buttons in my GUI!")
+        self.label = Label(master, text='Try the Buttons in my GUI!\n')
         self.label.pack()
 
         self.greet_button = Button(master, text='Say Hello', command=self.greet)
@@ -20,7 +20,7 @@ class MyGUI:
         self.close_button = Button(master, text="Close", command=self.close_gui)
         self.close_button.pack()
 
-        self.rr_button = Button(master, text="Please Don't Click Me", command=self.rroll)
+        self.rr_button = Button(master, text="Do Not Click", command=self.rroll)
         self.rr_button.pack()
 
     def greet(self):
@@ -42,6 +42,6 @@ class MyGUI:
     
 if __name__ == '__main__':
     root = Tk()
-    root.geometry('350x100')
+    root.geometry('350x150')
     my_gui = MyGUI(root)
     root.mainloop()
