@@ -4,9 +4,9 @@ import webbrowser as w
 class MyGUI:
     def __init__(self, master):
         self.master = master
-        master.title("A simple GUI")
+        master.title("Button Clicker")
 
-        self.label = Label(master, text="Writing a GUI in Python")
+        self.label = Label(master, text="Try the Buttons in my GUI!")
         self.label.pack()
 
         self.greet_button = Button(master, text='Say Hello', command=self.greet)
@@ -25,5 +25,6 @@ class MyGUI:
     
 if __name__ == '__main__':
     root = Tk()
+    root.geometry('350x100')
     my_gui = MyGUI(root)
     root.mainloop()
