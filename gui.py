@@ -1,7 +1,7 @@
 from tkinter import Tk, Label, Button
 import webbrowser as w
 
-class MyFirstGUI:
+class MyGUI:
     def __init__(self, master):
         self.master = master
         master.title("A simple GUI")
@@ -25,5 +25,5 @@ class MyFirstGUI:
     
 if __name__ == '__main__':
     root = Tk()
-    my_gui = MyFirstGUI(root)
+    my_gui = MyGUI(root)
     root.mainloop()
