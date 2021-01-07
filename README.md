@@ -1,2 +1,2 @@
 # GUI
- Practicing creating a gui with python
+ Practice creating a gui with python
