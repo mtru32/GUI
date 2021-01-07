@@ -31,14 +31,14 @@ class MyGUI:
             print("Good-Bye")
             self.said_bye = True
         else:
-            print("You haven't said hello")
+            print("You haven't said hello.")
     def rroll(self):
         w.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstleyVEVO')
     def close_gui(self):
         if (self.said_bye):
             self.master.quit()
         else:
-            print("You haven't said good-bye")
+            print("You haven't said good-bye.")
     
 if __name__ == '__main__':
     root = Tk()
