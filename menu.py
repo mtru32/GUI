@@ -1,4 +1,4 @@
-from tkinter import *
+from tkinter import Tk, Label, Button, Toplevel
 import webbrowser as w
 import page
 
